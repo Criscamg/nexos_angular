@@ -22,5 +22,6 @@ export class NexosMercanciaComponent {
       res=> this.mercanciaList = res);
     console.log(this.mercanciaList);
   }
+  displayedColumns: string[] = ['id', 'Nombre Mercancia', 'weight', 'symbol'];
 
 }
